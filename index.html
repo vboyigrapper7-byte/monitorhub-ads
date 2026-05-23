@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Monitor Hub by Monitorhubs.com is a website monitoring, API monitoring, uptime monitoring, and server monitoring platform with instant alerts for Windows, Linux, and Ubuntu infrastructure."
+  >
+  <meta
+    name="keywords"
+    content="Monitor Hub, Monitor Hubs, Monitorhubs.com, monitor, monitoring, website monitoring, uptime monitoring, API monitoring, server monitoring, Linux monitoring, Ubuntu monitoring, Windows server monitoring, downtime alerts, uptime checker, API checker"
+  >
+  <meta name="author" content="Monitor Hub">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#090913">
+  <link rel="canonical" href="https://monitorhubs.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Monitor Hub">
+  <meta property="og:title" content="Monitor Hub | Website, API, Uptime & Server Monitoring">
+  <meta
+    property="og:description"
+    content="Monitor Hub helps teams monitor websites, APIs, TCP ports, Windows servers, Linux servers, and Ubuntu machines with live dashboards and instant downtime alerts."
+  >
+  <meta property="og:url" content="https://monitorhubs.com/">
+  <meta property="og:image" content="https://monitorhubs.com/monitor-hub-preview.png">
+  <meta property="og:image:alt" content="Monitor Hub monitoring dashboard preview">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Monitor Hub | Website, API, Uptime & Server Monitoring">
+  <meta
+    name="twitter:description"
+    content="A professional monitoring platform for uptime checks, API testing, incident alerts, and Windows, Linux, and Ubuntu server visibility."
+  >
+  <meta name="twitter:image" content="https://monitorhubs.com/monitor-hub-preview.png">
+
+  <title>Monitor Hub | Website, API, Uptime & Server Monitoring Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://monitorhubs.com/#organization",
+          "name": "Monitor Hub",
+          "alternateName": ["Monitor Hubs", "Monitorhubs.com"],
+          "url": "https://monitorhubs.com/",
+          "logo": "https://monitorhubs.com/logo.png",
+          "sameAs": []
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://monitorhubs.com/#website",
+          "url": "https://monitorhubs.com/",
+          "name": "Monitor Hub",
+          "alternateName": "Monitor Hubs",
+          "publisher": {
+            "@id": "https://monitorhubs.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://monitorhubs.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://monitorhubs.com/#software",
+          "name": "Monitor Hub",
+          "alternateName": "Monitor Hubs",
+          "url": "https://monitorhubs.com/",
+          "applicationCategory": "MonitoringApplication",
+          "operatingSystem": "Web, Windows, Linux, Ubuntu",
+          "description": "Monitor Hub is a website monitoring, API monitoring, uptime monitoring, and server monitoring platform with live dashboards and instant downtime alerts.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "publisher": {
+            "@id": "https://monitorhubs.com/#organization"
+          },
+          "featureList": [
+            "Website uptime monitoring",
+            "API monitoring and API testing",
+            "TCP port monitoring",
+            "Windows server monitoring",
+            "Linux and Ubuntu server monitoring",
+            "Instant downtime alerts",
+            "Incident history and status visibility"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://monitorhubs.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Monitor Hub?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monitor Hub is a monitoring platform for websites, APIs, TCP ports, Windows servers, Linux servers, and Ubuntu infrastructure with live dashboards and instant alerts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Monitor Hub monitor website uptime?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Monitor Hub can track website uptime, endpoint availability, TCP ports, response behavior, and downtime events."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Monitor Hub support API monitoring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Monitor Hub includes API testing and API monitoring so teams can run requests, inspect responses, and convert important checks into continuous monitors."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Monitor Hub monitor servers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Monitor Hub is designed for physical and cloud server monitoring across Windows, Linux, and Ubuntu machines, including CPU, RAM, disk, network, and heartbeat visibility."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Monitor Hub home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span class="brand-text">Monitor Hub</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#monitors">Monitors</a>
+        <a href="#api">API Tester</a>
+        <a href="#servers">Servers</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <div class="header-actions">
+        <span class="domain-chip">Monitorhubs.com</span>
+        <a class="button ghost" href="#contact">Book Demo</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            Live uptime. Fast alerts. Real infrastructure visibility.
+          </div>
+          <h1>A monitoring platform your visitors understand in one glance.</h1>
+          <p class="hero-text">
+            Monitor Hub watches websites, APIs, Windows servers, and Linux or Ubuntu machines with a
+            product experience that feels active, technical, and trustworthy from the first second.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Start Monitoring</a>
+            <a class="button secondary" href="#platform">View Platform</a>
+            <a class="button secondary" href="#pricing">View Pricing</a>
+          </div>
+          <ul class="trust-row" aria-label="Highlights">
+            <li>Website and TCP uptime checks</li>
+            <li>Manual API testing that becomes monitoring</li>
+            <li>Instant downtime alerts</li>
+            <li>Windows and Ubuntu server coverage</li>
+          </ul>
+          <div class="domain-line">
+            <span>Production-ready monitoring at</span>
+            <strong>Monitorhubs.com</strong>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="dashboard-preview glass">
+            <aside class="dash-sidebar">
+              <div class="sidebar-brand">
+                <span class="sidebar-pulse"></span>
+                <span>Monitor Hub</span>
+                <b>PRO</b>
+              </div>
+              <ul class="sidebar-menu">
+                <li class="active">Overview</li>
+                <li>Monitors</li>
+                <li>API Tester</li>
+                <li>Servers</li>
+                <li>Alerts</li>
+                <li>Settings</li>
+              </ul>
+              <div class="usage-stats">
+                <span class="usage-title">Usage Stats</span>
+                <div class="usage-row">
+                  <span>Uptime Monitors</span>
+                  <strong>2 / 100</strong>
+                </div>
+                <div class="usage-bar"><span style="width: 2%"></span></div>
+                <div class="usage-row">
+                  <span>API Analytics</span>
+                  <strong>0 / 50</strong>
+                </div>
+                <div class="usage-bar"><span style="width: 1%"></span></div>
+                <div class="usage-row">
+                  <span>Server Telemetry</span>
+                  <strong>2 / 10</strong>
+                </div>
+                <div class="usage-bar"><span style="width: 20%"></span></div>
+              </div>
+              <div class="logout-row">Logout</div>
+            </aside>
+
+            <div class="dash-main">
+              <div class="dash-welcome">
+                <div>
+                  <strong>Welcome back, operator</strong>
+                  <p>Your infrastructure is running under live supervision.</p>
+                </div>
+                <span class="panel-button">New Monitor</span>
+              </div>
+
+              <div class="stats-grid">
+                <article class="stat-panel">
+                  <span class="panel-label">Overall network uptime</span>
+                  <div class="panel-metric">
+                    <span class="metric-big">100.00%</span>
+                    <span class="metric-live">Live</span>
+                  </div>
+                </article>
+                <article class="stat-panel">
+                  <span class="panel-label">Active sockets</span>
+                  <div class="panel-metric">
+                    <span class="metric-big">2</span>
+                    <span class="metric-ok">Healthy</span>
+                  </div>
+                </article>
+                <article class="stat-panel">
+                  <span class="panel-label">Current outages</span>
+                  <div class="panel-metric">
+                    <span class="metric-big accent-warn">0</span>
+                    <span class="metric-dim">Resolved fast</span>
+                  </div>
+                </article>
+              </div>
+
+              <article class="latency-panel">
+                <div class="latency-head">
+                  <strong>Average latency (global)</strong>
+                  <span>Updated every 30s</span>
+                </div>
+                <div class="chart-grid">
+                  <span>340</span>
+                  <span>255</span>
+                  <span>170</span>
+                  <span>85</span>
+                  <span>0</span>
+                </div>
+                <svg class="latency-chart" viewBox="0 0 760 260" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="chartStroke" x1="0%" x2="100%" y1="0%" y2="0%">
+                      <stop offset="0%" stop-color="#7f7cff"></stop>
+                      <stop offset="100%" stop-color="#6b68ff"></stop>
+                    </linearGradient>
+                    <linearGradient id="chartFill" x1="0%" x2="0%" y1="0%" y2="100%">
+                      <stop offset="0%" stop-color="rgba(107, 104, 255, 0.35)"></stop>
+                      <stop offset="100%" stop-color="rgba(107, 104, 255, 0)"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path class="chart-area" d="M0,190 C16,212 24,116 38,108 C50,170 62,128 74,154 C86,92 98,210 110,104 C122,150 132,88 146,158 C160,208 172,82 188,118 C204,64 216,22 228,136 C244,186 258,94 274,118 C292,74 302,154 314,92 C330,180 344,38 358,158 C372,120 382,82 396,150 C410,204 426,120 442,176 C458,132 470,210 486,166 C504,124 518,188 536,168 C552,150 566,198 584,154 C606,172 622,206 644,164 C666,194 686,160 704,188 C722,148 732,204 744,28 C750,172 758,112 760,168 L760,260 L0,260 Z"></path>
+                  <path class="chart-line" d="M0,190 C16,212 24,116 38,108 C50,170 62,128 74,154 C86,92 98,210 110,104 C122,150 132,88 146,158 C160,208 172,82 188,118 C204,64 216,22 228,136 C244,186 258,94 274,118 C292,74 302,154 314,92 C330,180 344,38 358,158 C372,120 382,82 396,150 C410,204 426,120 442,176 C458,132 470,210 486,166 C504,124 518,188 536,168 C552,150 566,198 584,154 C606,172 622,206 644,164 C666,194 686,160 704,188 C722,148 732,204 744,28 C750,172 758,112 760,168"></path>
+                </svg>
+                <div class="chart-times">
+                  <span>13:25</span>
+                  <span>15:10</span>
+                  <span>17:30</span>
+                  <span>20:50</span>
+                  <span>23:55</span>
+                </div>
+                <div class="metric-rail">
+                  <div class="rail-card">
+                    <span class="rail-label">North America</span>
+                    <strong>84ms</strong>
+                    <span class="rail-trend good">-12%</span>
+                  </div>
+                  <div class="rail-card">
+                    <span class="rail-label">Europe</span>
+                    <strong>103ms</strong>
+                    <span class="rail-trend good">Stable</span>
+                  </div>
+                  <div class="rail-card">
+                    <span class="rail-label">APAC</span>
+                    <strong>128ms</strong>
+                    <span class="rail-trend warn">+9%</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="platform" class="platform reveal">
+        <div class="section-head">
+          <span class="section-kicker">Platform feel</span>
+          <h2>Monitor Hub brings website monitoring, API monitoring, and server monitoring into one clear control room.</h2>
+          <p>
+            Built for teams that search for a reliable monitor, monitoring dashboard, uptime checker,
+            API checker, and infrastructure alerting tool, Monitor Hub keeps every critical service
+            visible from Monitorhubs.com.
+          </p>
+        </div>
+
+        <div class="platform-grid">
+          <article class="platform-card">
+            <span class="card-kicker">What users see</span>
+            <h3>Live uptime monitoring overview</h3>
+            <p>Track website uptime, TCP ports, endpoint health, and global latency from one fast dashboard built for immediate decisions.</p>
+          </article>
+          <article class="platform-card">
+            <span class="card-kicker">What teams feel</span>
+            <h3>Downtime alerts with context</h3>
+            <p>Route incidents through email, Slack, SMS, and webhooks while keeping response status, history, and recovery events easy to understand.</p>
+          </article>
+          <article class="platform-card">
+            <span class="card-kicker">What sticks</span>
+            <h3>Monitoring built for operators</h3>
+            <p>Monitor Hub presents realistic product screens for API checks, website monitors, server health, incident history, and status pages.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="seo-section reveal">
+        <div class="section-head">
+          <span class="section-kicker">Search-ready monitoring platform</span>
+          <h2>Designed for teams looking for Monitor Hub, Monitor Hubs, uptime monitoring, and server visibility.</h2>
+          <p>
+            Monitorhubs.com is positioned around the terms your customers actually search: monitor,
+            monitoring, website monitoring, API monitoring, server monitoring, uptime checker,
+            downtime alerts, Linux monitoring, Ubuntu monitoring, and Windows server monitoring.
+          </p>
+        </div>
+
+        <div class="seo-grid">
+          <article class="seo-card glass">
+            <h3>Website Monitoring</h3>
+            <p>Always-on uptime checks for public websites, customer portals, landing pages, APIs, TCP ports, and business-critical endpoints.</p>
+          </article>
+          <article class="seo-card glass">
+            <h3>API Monitoring</h3>
+            <p>Run API requests, validate responses, watch latency, debug payloads, and turn important requests into continuous background monitors.</p>
+          </article>
+          <article class="seo-card glass">
+            <h3>Server Monitoring</h3>
+            <p>Monitor Windows, Linux, and Ubuntu servers with CPU, RAM, disk, network, process, heartbeat, and incident visibility.</p>
+          </article>
+          <article class="seo-card glass">
+            <h3>Incident Alerts</h3>
+            <p>Receive downtime alerts fast, review incident history, track recovery, and keep teams aligned during service interruptions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="monitors" class="feature-section monitors">
+        <div class="feature-copy reveal">
+          <span class="section-kicker">Web and TCP monitors</span>
+          <h2>Create monitors that look actionable before anyone reads the copy.</h2>
+          <p>
+            Websites, APIs, and TCP ports can be configured from a clean panel that feels like the real product:
+            monitor type, target URI, frequency, advanced request setup, and current monitor rows underneath.
+          </p>
+        </div>
+
+        <div class="feature-panel glass reveal">
+          <div class="panel-banner">
+            <div>
+              <strong>Web &amp; TCP Monitors</strong>
+              <p>Track websites, APIs, and strict TCP ports from one place.</p>
+            </div>
+            <span class="panel-button">Create Monitor</span>
+          </div>
+
+          <div class="config-card">
+            <h3>Configure Target</h3>
+            <div class="config-form">
+              <div class="field">
+                <label>Monitor Type</label>
+                <div class="input static-select">HTTP Status Check</div>
+              </div>
+              <div class="field">
+                <label>Target URI</label>
+                <div class="input">https://status.your-site.com</div>
+              </div>
+              <div class="field">
+                <label>Friendly Name</label>
+                <div class="input">Primary Checkout API</div>
+              </div>
+              <div class="field">
+                <label>Check Interval</label>
+                <div class="input">300 seconds</div>
+              </div>
+            </div>
+            <div class="config-actions">
+              <span class="tag-button">Advanced API settings</span>
+              <div class="button-row">
+                <span class="button primary fake-button">Deploy Analytics</span>
+                <span class="button secondary fake-button">Cancel</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="monitor-table">
+            <div class="table-head">
+              <span>Status</span>
+              <span>Name</span>
+              <span>Target</span>
+              <span>Interval</span>
+              <span>Action</span>
+            </div>
+            <div class="table-row">
+              <span class="status-pill up">UP</span>
+              <strong>Backend API</strong>
+              <span>https://api.monitorhub.com</span>
+              <span>300s</span>
+              <span class="action-dot"></span>
+            </div>
+            <div class="table-row">
+              <span class="status-pill up">UP</span>
+              <strong>Main Website</strong>
+              <span>https://monitorhub.com</span>
+              <span>60s</span>
+              <span class="action-dot"></span>
+            </div>
+            <div class="table-row">
+              <span class="status-pill checking">CHECKING</span>
+              <strong>Client Portal</strong>
+              <span>https://portal.monitorhub.com</span>
+              <span>120s</span>
+              <span class="action-dot warm"></span>
+            </div>
+          </div>
+
+          <div class="incident-strip">
+            <div class="incident-item">
+              <span class="incident-dot active"></span>
+              <div>
+                <strong>Incident workflow</strong>
+                <p>Checkout API recovered automatically after 2 failed probes.</p>
+              </div>
+            </div>
+            <div class="incident-item">
+              <span class="incident-dot"></span>
+              <div>
+                <strong>Alert fanout</strong>
+                <p>Email, Slack, SMS, and webhook escalation all verified.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="api" class="feature-section api-layout">
+        <div class="feature-panel glass reveal">
+          <div class="panel-banner">
+            <div>
+              <strong>API Tester &amp; Debugger</strong>
+              <p>Run requests manually, inspect payloads, then save them as monitors.</p>
+            </div>
+          </div>
+
+          <div class="api-console">
+            <div class="request-box">
+              <h3>Request Configuration</h3>
+              <div class="request-row">
+                <span class="method-pill">GET</span>
+                <div class="url-bar">https://api.example.com/v1/users</div>
+                <span class="panel-button small">Send</span>
+              </div>
+              <div class="code-block">
+                <span>{</span>
+                <span>&nbsp;&nbsp;"Accept": "application/json",</span>
+                <span>&nbsp;&nbsp;"Authorization": "Bearer live_token"</span>
+                <span>}</span>
+              </div>
+              <span class="save-request">Save Request to Automated Monitors</span>
+            </div>
+
+            <div class="response-box">
+              <h3>Response</h3>
+              <div class="response-stream">
+                <span class="stream-line short"></span>
+                <span class="stream-line"></span>
+                <span class="stream-line mid"></span>
+                <span class="stream-line"></span>
+                <span class="response-status">200 OK in 182ms</span>
+              </div>
+              <div class="response-json">
+                <span>{</span>
+                <span>&nbsp;&nbsp;"status": "healthy",</span>
+                <span>&nbsp;&nbsp;"region": "global-edge",</span>
+                <span>&nbsp;&nbsp;"checksPassed": 18</span>
+                <span>}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-copy reveal">
+          <span class="section-kicker">API checks with context</span>
+          <h2>Test once, promote to monitoring, and keep failures visible.</h2>
+          <p>
+            This section uses request bars, response shimmer, and structured code framing so API monitoring feels
+            relatable to developers and technical buyers immediately.
+          </p>
+        </div>
+      </section>
+
+      <section id="servers" class="feature-section server-layout">
+        <div class="feature-copy reveal">
+          <span class="section-kicker">Physical server monitoring</span>
+          <h2>Windows and Linux infrastructure shown like a live fleet, not a marketing icon.</h2>
+          <p>
+            CPU, memory, storage, and agent heartbeat are grouped into rack-style cards with quiet movement that suggests
+            constant polling and stable control.
+          </p>
+        </div>
+
+        <div class="server-detail glass reveal">
+          <div class="server-detail-head">
+            <div class="server-avatar">
+              <span></span>
+              <span></span>
+            </div>
+            <div>
+              <strong>DIC production server</strong>
+              <p><span class="online-dot"></span> Online - Uptime 4d 22h 48m - Heartbeat 07:51:17</p>
+            </div>
+            <div class="range-toggle" aria-hidden="true">
+              <span class="active">1H</span>
+              <span>12H</span>
+              <span>24H</span>
+            </div>
+          </div>
+
+          <div class="server-metrics">
+            <article>
+              <span class="metric-name">CPU</span>
+              <strong>1.39%</strong>
+              <p>Current load</p>
+              <div class="mini-meter green"><span style="width: 8%"></span></div>
+            </article>
+            <article>
+              <span class="metric-name">RAM</span>
+              <strong>11.2 / 15.8 GB</strong>
+              <p>70.8% utilization</p>
+              <div class="mini-meter amber"><span style="width: 70.8%"></span></div>
+            </article>
+            <article>
+              <span class="metric-name">Disk</span>
+              <strong>68.60%</strong>
+              <p>Primary volume used</p>
+              <div class="mini-meter green"><span style="width: 68.6%"></span></div>
+            </article>
+            <article>
+              <span class="metric-name">Network Down</span>
+              <strong>0.04 MB</strong>
+              <p>Received this interval</p>
+              <div class="spark-bars">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </article>
+            <article>
+              <span class="metric-name">Network Up</span>
+              <strong>0.03 MB</strong>
+              <p>Sent this interval</p>
+              <div class="spark-bars purple">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </article>
+          </div>
+
+          <div class="server-chart-card">
+            <div class="server-chart-title">
+              <strong>CPU Utilization (%)</strong>
+              <span>Live agent sample</span>
+            </div>
+            <svg class="server-line-chart" viewBox="0 0 880 220" preserveAspectRatio="none">
+              <path class="server-grid-line" d="M30 35 H860 M30 80 H860 M30 125 H860 M30 170 H860"></path>
+              <path class="server-cpu-line" d="M30,190 L110,190 L160,189 L190,189 L205,176 L218,190 L310,189 L370,188 L430,190 L500,188 L570,190 L650,189 L720,190 L790,189 L860,190"></path>
+            </svg>
+          </div>
+
+          <div class="server-chart-row">
+            <div class="server-chart-card small">
+              <div class="server-chart-title">
+                <strong>RAM Used (MB)</strong>
+                <span>Stable</span>
+              </div>
+              <div class="area-chart ram-chart"></div>
+            </div>
+            <div class="server-chart-card small">
+              <div class="server-chart-title">
+                <strong>Disk Usage (%)</strong>
+                <span>Threshold 85%</span>
+              </div>
+              <div class="area-chart disk-chart"></div>
+            </div>
+          </div>
+
+          <div class="server-chart-card">
+            <div class="server-chart-title">
+              <strong>Network I/O (MB / interval)</strong>
+              <span>Inbound and outbound spikes</span>
+            </div>
+            <svg class="server-line-chart network-chart" viewBox="0 0 880 220" preserveAspectRatio="none">
+              <path class="server-grid-line" d="M30 35 H860 M30 80 H860 M30 125 H860 M30 170 H860"></path>
+              <path class="network-in" d="M30,172 C60,145 88,184 116,170 C150,145 182,178 210,158 C236,206 262,178 298,176 C330,164 360,190 388,174 C426,140 460,190 492,176 C520,174 552,160 580,168 C620,182 650,142 680,172 C715,198 744,92 760,170 C790,190 820,150 860,172"></path>
+              <path class="network-out" d="M30,180 C72,178 96,190 120,182 C150,162 186,184 210,174 C236,210 262,188 298,184 C330,174 360,196 388,182 C426,168 460,190 492,184 C520,180 552,172 580,180 C620,188 650,158 680,176 C715,198 744,128 760,176 C790,190 820,166 860,180"></path>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-section reveal">
+        <div class="section-head">
+          <span class="section-kicker">Trust layer</span>
+          <h2>Looks like a platform operators can believe, not just admire.</h2>
+          <p>
+            Realistic status language, tighter component rhythm, and deeper dashboard detail help the page feel closer to a working product.
+          </p>
+        </div>
+        <div class="proof-grid">
+          <article class="proof-card glass">
+            <span class="proof-title">Status page sync</span>
+            <strong>Public incident updates in seconds</strong>
+            <p>Push verified outages and recoveries straight from monitors to your customer-facing status experience.</p>
+          </article>
+          <article class="proof-card glass">
+            <span class="proof-title">On-call ready</span>
+            <strong>Escalation that respects urgency</strong>
+            <p>Route the first alert to a team channel, then progressively trigger SMS and webhook workflows if recovery does not happen.</p>
+          </article>
+          <article class="proof-card glass">
+            <span class="proof-title">Machine visibility</span>
+            <strong>One pane for web, API, and server health</strong>
+            <p>Bring public uptime, internal service checks, and physical node telemetry into one quieter but richer control layer.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="pricing-section reveal" id="pricing">
+        <div class="pricing-head">
+          <div class="section-head">
+            <span class="section-kicker">Monitor Hub Pricing</span>
+            <h2>Simple plans for website monitoring, API checks, and server visibility.</h2>
+            <p>
+              Start free, then upgrade when you need faster check intervals, more monitors, longer retention,
+              integrations, and advanced incident workflows for Monitorhubs.com.
+            </p>
+          </div>
+          <div class="billing-card glass" aria-label="Billing details">
+            <span class="current-plan">Current plan: Free</span>
+            <div class="billing-toggle" aria-label="Choose billing period">
+              <button class="active" type="button" data-billing-option="monthly" aria-pressed="true">Monthly</button>
+              <button type="button" data-billing-option="yearly" aria-pressed="false">Yearly - save 20%</button>
+            </div>
+            <p>Upgrade to unlock faster checks, team alert routing, and longer monitoring history.</p>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card glass">
+            <div class="plan-top">
+              <span class="plan-name">Free</span>
+              <p>For trying Monitor Hub with essential uptime visibility.</p>
+            </div>
+            <div class="plan-price">
+              <strong data-monthly="$0" data-yearly="$0">$0</strong>
+              <span>/mo</span>
+            </div>
+            <p class="price-note" data-monthly-note="Free forever" data-yearly-note="Free forever">Free forever</p>
+            <ul class="plan-limits">
+              <li><strong>5</strong> uptime monitors</li>
+              <li><strong>2</strong> API monitors</li>
+              <li><strong>1</strong> server monitor</li>
+              <li><strong>5 min</strong> check interval</li>
+              <li><strong>24 hours</strong> data retention</li>
+            </ul>
+            <ul class="plan-features">
+              <li>Email alerts</li>
+              <li>Basic status view</li>
+              <li>Public website checks</li>
+            </ul>
+            <a class="button secondary plan-cta" href="#contact">Get Started</a>
+          </article>
+
+          <article class="pricing-card glass">
+            <div class="plan-top">
+              <span class="plan-name">Starter</span>
+              <p>Best for indie developers and small projects.</p>
+            </div>
+            <div class="plan-price">
+              <strong data-monthly="$10" data-yearly="$8">$10</strong>
+              <span>/mo</span>
+            </div>
+            <p class="price-note" data-monthly-note="Billed monthly" data-yearly-note="Billed $96/year">Billed monthly</p>
+            <ul class="plan-limits">
+              <li><strong>25</strong> uptime monitors</li>
+              <li><strong>10</strong> API monitors</li>
+              <li><strong>3</strong> server monitors</li>
+              <li><strong>60 sec</strong> check interval</li>
+              <li><strong>7 days</strong> data retention</li>
+            </ul>
+            <ul class="plan-features">
+              <li>Email and webhook alerts</li>
+              <li>Incident history</li>
+              <li>Basic API response checks</li>
+            </ul>
+            <a class="button secondary plan-cta" href="#contact">Upgrade</a>
+          </article>
+
+          <article class="pricing-card glass featured-plan">
+            <div class="popular-badge">Most Popular</div>
+            <div class="plan-top">
+              <span class="plan-name">Pro</span>
+              <p>Most popular for startups and production apps.</p>
+            </div>
+            <div class="plan-price">
+              <strong data-monthly="$24" data-yearly="$19">$24</strong>
+              <span>/mo</span>
+            </div>
+            <p class="price-note" data-monthly-note="Billed monthly" data-yearly-note="Billed $230/year">Billed monthly</p>
+            <ul class="plan-limits">
+              <li><strong>100</strong> uptime monitors</li>
+              <li><strong>50</strong> API monitors</li>
+              <li><strong>10</strong> server monitors</li>
+              <li><strong>30 sec</strong> check interval</li>
+              <li><strong>30 days</strong> data retention</li>
+            </ul>
+            <ul class="plan-features">
+              <li>Slack, email, webhook alerts</li>
+              <li>Status pages and incident updates</li>
+              <li>Advanced API assertions</li>
+              <li>Windows, Linux, and Ubuntu telemetry</li>
+            </ul>
+            <a class="button primary plan-cta" href="#contact">Upgrade</a>
+          </article>
+
+          <article class="pricing-card glass">
+            <div class="plan-top">
+              <span class="plan-name">Business</span>
+              <p>Built for teams and critical infrastructure.</p>
+            </div>
+            <div class="plan-price">
+              <strong data-monthly="$84" data-yearly="$67">$84</strong>
+              <span>/mo</span>
+            </div>
+            <p class="price-note" data-monthly-note="Billed monthly" data-yearly-note="Billed $806/year">Billed monthly</p>
+            <ul class="plan-limits">
+              <li><strong>500</strong> uptime monitors</li>
+              <li><strong>200</strong> API monitors</li>
+              <li><strong>50</strong> server monitors</li>
+              <li><strong>30 sec</strong> check interval</li>
+              <li><strong>180 days</strong> data retention</li>
+            </ul>
+            <ul class="plan-features">
+              <li>Escalation policies</li>
+              <li>Team roles and audit-ready history</li>
+              <li>Priority alert routing</li>
+              <li>Advanced integrations</li>
+            </ul>
+            <a class="button secondary plan-cta" href="#contact">Upgrade</a>
+          </article>
+        </div>
+
+        <div class="comparison-wrap glass">
+          <div class="comparison-head">
+            <div>
+              <span class="section-kicker">Plan comparison</span>
+              <h3>Compare Monitor Hub plans at a glance.</h3>
+            </div>
+            <span class="unlock-note">Upgrade to unlock faster checks, more history, and advanced alerts.</span>
+          </div>
+          <div class="comparison-table" role="table" aria-label="Monitor Hub pricing comparison">
+            <div class="comparison-row table-header" role="row">
+              <span role="columnheader">Feature</span>
+              <span role="columnheader">Free</span>
+              <span role="columnheader">Starter</span>
+              <span role="columnheader">Pro</span>
+              <span role="columnheader">Business</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Uptime monitors</span>
+              <span role="cell">5</span>
+              <span role="cell">25</span>
+              <span role="cell">100</span>
+              <span role="cell">500</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">API monitors</span>
+              <span role="cell">2</span>
+              <span role="cell">10</span>
+              <span role="cell">50</span>
+              <span role="cell">200</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Server monitors</span>
+              <span role="cell">1</span>
+              <span role="cell">3</span>
+              <span role="cell">10</span>
+              <span role="cell">50</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Interval</span>
+              <span role="cell">5 min</span>
+              <span role="cell">60 sec</span>
+              <span role="cell">30 sec</span>
+              <span role="cell">30 sec</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Alerts</span>
+              <span role="cell">Email</span>
+              <span role="cell">Email + webhook</span>
+              <span role="cell">Slack + webhook</span>
+              <span role="cell">Escalation policies</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Retention</span>
+              <span role="cell">24 hours</span>
+              <span role="cell">7 days</span>
+              <span role="cell">30 days</span>
+              <span role="cell">180 days</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Advanced features</span>
+              <span role="cell">Basic status</span>
+              <span role="cell">Incident history</span>
+              <span role="cell">Status pages + API assertions</span>
+              <span role="cell">Roles, audit history, integrations</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Status Pages</span>
+              <span role="cell">1</span>
+              <span role="cell">5</span>
+              <span role="cell">20</span>
+              <span role="cell">Unlimited</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Team Members</span>
+              <span role="cell">1</span>
+              <span role="cell">5</span>
+              <span role="cell">20</span>
+              <span role="cell">Unlimited</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">SSL & Domain Alerts</span>
+              <span role="cell">No</span>
+              <span role="cell">Yes</span>
+              <span role="cell">Yes</span>
+              <span role="cell">Yes</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Developer API</span>
+              <span role="cell">No</span>
+              <span role="cell">No</span>
+              <span role="cell">Yes</span>
+              <span role="cell">Yes</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Data Archival (S3/Cloudflare)</span>
+              <span role="cell">No</span>
+              <span role="cell">No</span>
+              <span role="cell">Yes</span>
+              <span role="cell">Yes</span>
+            </div>
+            <div class="comparison-row" role="row">
+              <span role="cell">Audit Logs & Reporting</span>
+              <span role="cell">No</span>
+              <span role="cell">No</span>
+              <span role="cell">No</span>
+              <span role="cell">Yes</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section reveal" id="faq">
+        <div class="section-head">
+          <span class="section-kicker">Monitor Hub FAQ</span>
+          <h2>Answers for teams comparing monitoring platforms.</h2>
+          <p>
+            These questions help visitors and search engines understand exactly what Monitor Hub does,
+            who it is for, and why Monitorhubs.com is relevant for uptime and infrastructure monitoring.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item glass">
+            <h3>What is Monitor Hub?</h3>
+            <p>Monitor Hub is a monitoring platform for websites, APIs, TCP ports, Windows servers, Linux servers, and Ubuntu infrastructure.</p>
+          </article>
+          <article class="faq-item glass">
+            <h3>Can Monitor Hub monitor website uptime?</h3>
+            <p>Yes. Monitor Hub tracks website uptime, endpoint availability, response behavior, latency, and downtime events with live dashboards.</p>
+          </article>
+          <article class="faq-item glass">
+            <h3>Does Monitor Hub include API monitoring?</h3>
+            <p>Yes. Teams can test API requests, inspect responses, validate service health, and save important API checks as continuous monitors.</p>
+          </article>
+          <article class="faq-item glass">
+            <h3>Can Monitor Hub monitor Windows, Linux, and Ubuntu servers?</h3>
+            <p>Yes. Monitor Hub supports server monitoring concepts for CPU, RAM, disk usage, network I/O, heartbeat, processes, and incident visibility.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="cta reveal">
+        <div class="cta-copy">
+          <span class="section-kicker">Launch Monitor Hub</span>
+          <h2>Make the page feel like the product people want to trust with uptime.</h2>
+          <p>
+            Faster to understand, more relatable to technical users, and ready to present professionally at Monitorhubs.com.
+          </p>
+        </div>
+        <a class="button primary large" href="mailto:hello@monitorhubs.com">Request a Demo</a>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
